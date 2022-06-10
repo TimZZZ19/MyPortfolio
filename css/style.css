@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/* HEADER */
+.header {
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  padding: 0 6rem;
+  justify-content: space-between;
+  box-shadow: 0rem 0.3rem 0.8rem #ccc;
+}
+
+.header-brand {
+  font-size: 5.2rem;
+}
+
+/* Navigation bar */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+
+.nav-link {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #555;
+}
+
+.external-links .nav-link {
+  font-size: 2.8rem;
+}
