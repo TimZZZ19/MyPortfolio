@@ -19,6 +19,7 @@ body {
   color: #555;
   font-size: 1.8rem;
   background-color: white;
+  /* rgb(254, 251, 198) */
 }
 
 /* ************************************** */
@@ -29,8 +30,6 @@ section {
   padding: 10rem 0;
   border-bottom: 0.1rem solid #ccc;
 }
-
-/* rgb(254, 251, 198) */
 
 ul {
   list-style: none;
