@@ -42,6 +42,7 @@ ul {
 .flex-box {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .vertical-flex-box {
@@ -77,15 +78,17 @@ ul {
 
 /* Navigation bar */
 .nav-bar {
-  display: flex;
-  align-items: center;
-  gap: 6rem;
+  width: 50%;
 }
 
 .nav-link {
   font-size: 2rem;
   text-decoration: none;
   color: #555;
+}
+
+.external-links {
+  width: 6rem;
 }
 
 .external-links .nav-link {
