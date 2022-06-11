@@ -1,3 +1,4 @@
+/* STYLE NORMALIZATION */
 * {
   margin: 0;
   padding: 0;
@@ -10,9 +11,44 @@ html {
 
 body {
   font-family: "Josefin Sans", sans-serif;
-  line-height: 1;
+  line-height: 1.5;
   font-weight: 400;
   color: #555;
+  font-size: 1.8rem;
+}
+
+/* UNIVERSAL SETTINGS AND UTILITY CLASSES */
+
+section {
+  padding: 10rem 0;
+  border-bottom: 0.1rem solid #ccc;
+}
+
+ul {
+  list-style: none;
+  padding-left: 2rem;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vertical-flex-box {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.card {
+  padding: 1.8rem;
+  border-radius: 2.2rem;
+  box-shadow: 0.2rem 0.3rem 1rem #ccc;
 }
 
 /* HEADER */
@@ -44,4 +80,14 @@ body {
 
 .external-links .nav-link {
   font-size: 2.8rem;
+}
+
+/* HERO */
+
+.self-intro {
+  width: 50%;
+}
+
+.skills {
+  width: 26%;
 }
