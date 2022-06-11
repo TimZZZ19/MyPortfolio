@@ -1,4 +1,7 @@
+/* ******************* */
 /* STYLE NORMALIZATION */
+/* ******************* */
+
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +20,9 @@ body {
   font-size: 1.8rem;
 }
 
+/* ************************************** */
 /* UNIVERSAL SETTINGS AND UTILITY CLASSES */
+/* ************************************** */
 
 section {
   padding: 10rem 0;
@@ -50,6 +55,10 @@ ul {
   border-radius: 2.2rem;
   box-shadow: 0.2rem 0.3rem 1rem #ccc;
 }
+
+/* ***************** */
+/* SPECIFIC SECTIONS */
+/* ***************** */
 
 /* HEADER */
 .header {
