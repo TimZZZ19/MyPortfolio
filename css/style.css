@@ -68,6 +68,9 @@ ul {
   padding: 0 6rem;
   justify-content: space-between;
   box-shadow: 0rem 0.3rem 0.8rem #ccc;
+
+  position: sticky;
+  top: 0rem;
 }
 
 .header-brand {
