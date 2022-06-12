@@ -41,6 +41,7 @@ a {
   font-size: 3.6rem;
   font-weight: 600;
   margin-bottom: 3rem;
+  display: inline-block;
 }
 
 ul {
