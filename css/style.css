@@ -1,3 +1,6 @@
+/* Primary: #fffef7 */
+/* Shade: #e6e5de */
+
 /* ******************* */
 /* STYLE NORMALIZATION */
 /* ******************* */
@@ -18,8 +21,7 @@ body {
   font-weight: 400;
   color: #555;
   font-size: 1.8rem;
-  background-color: white;
-  /* rgb(254, 251, 198) */
+  background-color: #fffef7;
 }
 
 /* ************************************** */
@@ -56,17 +58,38 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
+.li-alignment-start {
+  align-items: start;
+}
 
 .vertical-flex-box {
   display: flex;
   flex-direction: column;
   gap: 3rem;
 }
+.vertial-gap-8 {
+  gap: 8rem;
+}
 
 .card {
   padding: 3rem;
   border-radius: 2.2rem;
   box-shadow: 0.2rem 0.3rem 1rem #ccc;
+}
+.card-padding-5 {
+  padding: 5rem;
+}
+
+.external-link {
+  padding: 0.5rem 1.6rem;
+  border-radius: 2.2rem;
+  border: 0.1rem solid #ccc;
+  color: #555;
+  transition: all 0.3s;
+}
+.external-link:hover {
+  color: black;
+  border-color: #555;
 }
 
 /* ***************** */
@@ -121,15 +144,6 @@ ul {
 }
 
 /* CERTIFICATES */
-
-.certificate-list {
-  padding: 5rem;
-}
-
-.certificate-li {
-  align-items: start;
-}
-
 .certificate-contents {
   align-items: start;
   justify-content: start;
@@ -144,24 +158,49 @@ ul {
   width: 100%;
 }
 
-.course-name {
-  font-weight: 700;
-}
-
 .issue-date {
   color: black;
   font-weight: 300;
 }
 
-.credential-link {
-  padding: 0.5rem 1.6rem;
-  border-radius: 2.2rem;
-  border: 0.1rem solid #ccc;
-  color: #555;
-  transition: all 0.3s;
+/* PROJECTS */
+
+.project-slide-window {
+  width: 45%;
+}
+.project-slide-window--odd {
+  box-shadow: -0.5rem 0.5rem 1rem #ccc;
+}
+.project-slide-window--even {
+  box-shadow: 0.5rem 0.5rem 1rem #ccc;
 }
 
-.credential-link:hover {
-  color: black;
-  border-color: #555;
+.project-slide-window img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
+}
+
+.project-introduction {
+  width: 45%;
+}
+
+.project-name {
+  margin-bottom: 3rem;
+}
+
+.project-specific-info {
+  gap: 1.5rem;
+  padding-left: 3rem;
+}
+
+.techs-used {
+  font-weight: 700;
+}
+
+.project-buttons {
+  margin-top: 2rem;
+  justify-content: start;
+  gap: 3rem;
 }
