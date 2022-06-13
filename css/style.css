@@ -1,5 +1,8 @@
 /* Primary: #fffef7 */
 /* Shade: #e6e5de */
+/* Accent #4957f0 #252c78*/
+
+/* #de8e32 */
 
 /* ******************* */
 /* STYLE NORMALIZATION */
@@ -20,7 +23,7 @@ body {
   line-height: 1.5;
   font-weight: 400;
   color: #555;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   background-color: #fffef7;
 }
 
@@ -73,8 +76,8 @@ u {
   flex-direction: column;
   gap: 3rem;
 }
-.vertical-gap-0 {
-  gap: 0rem;
+.vertical-gap-2 {
+  gap: 1.6rem;
 }
 .vertical-gap-8 {
   gap: 8rem;
@@ -135,7 +138,7 @@ u {
 }
 
 .external-links {
-  width: 6rem;
+  width: 6.2rem;
 }
 
 .external-links .nav-link {
@@ -146,6 +149,13 @@ u {
 
 .self-intro {
   width: 50%;
+}
+
+.resume {
+  color: #4957f0;
+  font-style: italic;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
 }
 
 .skills {
@@ -216,5 +226,9 @@ u {
 
 /* FOOTER */
 .footer {
-  padding: 5rem 0;
+  padding: 5rem 8rem 10rem;
+}
+
+.footer-navigation .nav-link {
+  font-size: 1.6rem;
 }
