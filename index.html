@@ -35,9 +35,18 @@
     <header class="flex-box header">
       <h1 class="header-brand">Tim Xu</h1>
       <nav class="flex-box nav-bar">
-        <a href="#hero" class="nav-link section-button">About Me</a>
-        <a href="#certificates" class="nav-link section-button">Certificates</a>
-        <a href="#projects" class="nav-link section-button">Projects</a>
+        <a href="#hero" id="hero-tab" class="nav-link section-tab active-tab"
+          >About Me</a
+        >
+        <a
+          href="#certificates"
+          id="certificates-tab"
+          class="nav-link section-tab"
+          >Certificates</a
+        >
+        <a href="#projects" id="projects-tab" class="nav-link section-tab"
+          >Projects</a
+        >
         <span class="flex-box external-links">
           <a href="#" class="flex-box nav-link">
             <ion-icon name="logo-github" />
@@ -48,7 +57,7 @@
       </nav>
     </header>
     <main>
-      <section class="hero" id="hero">
+      <section class="section section--active hero" id="hero">
         <div class="container flex-box">
           <div class="self-intro vertical-flex-box">
             <div class="self-intro-text">
@@ -98,7 +107,7 @@
           </div>
         </div>
       </section>
-      <section class="certificates" id="certificates">
+      <section class="section certificates" id="certificates">
         <div class="container">
           <p class="section-heading">Certificates</p>
           <span>
@@ -168,7 +177,7 @@
           </ul>
         </div>
       </section>
-      <section class="projects" id="projects">
+      <section class="section projects" id="projects">
         <div class="container">
           <p class="section-heading">Projects</p>
           <span>
@@ -226,9 +235,9 @@
     </main>
     <footer class="footer container flex-box">
       <div class="footer-navigation vertical-flex-box vertical-gap-2">
-        <a href="#hero" class="nav-link section-button">About Me</a>
-        <a href="#certificates" class="nav-link section-button">Certificates</a>
-        <a href="#projects" class="nav-link section-button">Projects</a>
+        <a href="#hero" class="nav-link section-tab">About Me</a>
+        <a href="#certificates" class="nav-link section-tab">Certificates</a>
+        <a href="#projects" class="nav-link section-tab">Projects</a>
       </div>
 
       <div class="contact-info vertical-flex-box vertical-gap-2">

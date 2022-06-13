@@ -1,9 +1,16 @@
-// Nav-bar, section smooth scrolling
+// Back to top on refreshing
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+};
+
+// *************************
+// SECTION SMOOTH SCROLL
+// *************************
 const navBar = document.querySelector(".nav-bar");
 const footerNav = document.querySelector(".footer-navigation");
 
 const smoothScroll = (e) => {
-  if (!e.target.classList.contains("section-button")) return;
+  if (!e.target.classList.contains("section-tab")) return;
   e.preventDefault();
 
   const id = e.target.getAttribute("href");
@@ -20,3 +27,35 @@ const smoothScroll = (e) => {
 navBar.addEventListener("click", (e) => smoothScroll(e));
 
 footerNav.addEventListener("click", (e) => smoothScroll(e));
+
+// *************************
+// SECTION INDICATOR
+// *************************
+let activeSectionTab;
+const sections = document.querySelectorAll(".section");
+
+const updateActiveTab = (tab) => {
+  activeSectionTab = document.querySelector(".active-tab");
+  activeSectionTab.classList.remove("active-tab");
+  tab.classList.add("active-tab");
+};
+
+const options = {
+  root: null,
+  rootMargin: "-49% 0px",
+  threshold: 0,
+};
+
+const progressObserver = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) return;
+    const id = entry.target.getAttribute("id");
+    const currentTab = document.getElementById(`${id}-tab`);
+
+    updateActiveTab(currentTab);
+  });
+}, options);
+
+sections.forEach((section) => {
+  progressObserver.observe(section);
+});
