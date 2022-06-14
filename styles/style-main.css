@@ -181,9 +181,11 @@ u {
 
   transition: color 0.3s;
 }
-
 .resume:hover {
   color: #000;
+}
+.resume:visited {
+  color: #4957f0;
 }
 
 .skills {
