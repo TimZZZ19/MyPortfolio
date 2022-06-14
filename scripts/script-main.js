@@ -4,19 +4,12 @@ window.onbeforeunload = function () {
 };
 
 // *************************
-// SECTION SMOOTH SCROLL
+// COMMENT SECTION SMOOTH SCROLL
 // *************************
 const navBar = document.querySelector(".nav-bar");
 const footerNav = document.querySelector(".footer-navigation");
 
-const smoothScroll = (e) => {
-  if (!e.target.classList.contains("section-tab")) return;
-  e.preventDefault();
-
-  const id = e.target.getAttribute("href");
-  const section = document.querySelector(id);
-  const sectionRect = section.getBoundingClientRect();
-
+const smoothScroll = (sectionRect) => {
   window.scrollTo({
     left: sectionRect.left + window.scrollX,
     top: sectionRect.top + window.scrollY - 100,
@@ -24,9 +17,30 @@ const smoothScroll = (e) => {
   });
 };
 
-navBar.addEventListener("click", (e) => smoothScroll(e));
+const goToSection = (e) => {
+  if (!e.target.classList.contains("section-tab")) return;
+  e.preventDefault();
 
-footerNav.addEventListener("click", (e) => smoothScroll(e));
+  const id = e.target.getAttribute("href");
+  const section = document.querySelector(id);
+  const sectionRect = section.getBoundingClientRect();
+
+  smoothScroll(sectionRect);
+};
+
+navBar.addEventListener("click", (e) => goToSection(e));
+
+footerNav.addEventListener("click", (e) => goToSection(e));
+
+// COMMENT Scroll to hero on clicking the header brand
+const headerBrand = document.querySelector(".header-brand");
+
+headerBrand.addEventListener("click", () => {
+  const section = document.getElementById("hero");
+  const sectionRect = section.getBoundingClientRect();
+
+  smoothScroll(sectionRect);
+});
 
 // *************************
 // SECTION INDICATOR
