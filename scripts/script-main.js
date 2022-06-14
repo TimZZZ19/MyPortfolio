@@ -59,3 +59,26 @@ const progressObserver = new IntersectionObserver((entries) => {
 sections.forEach((section) => {
   progressObserver.observe(section);
 });
+
+// *************************
+// SECTION REVEALING EFFECT
+// *************************
+
+const revealSection = function (entries, observer) {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) return;
+    entry.target.classList.remove("section--hidden");
+    observer.unobserve(entry.target);
+  });
+};
+
+const sectionRevealObserver = new IntersectionObserver(revealSection, {
+  root: null,
+  rootMargin: "0px 0px -25% 0px",
+  threshold: 0,
+});
+
+sections.forEach(function (section) {
+  sectionRevealObserver.observe(section);
+  section.classList.add("section--hidden");
+});

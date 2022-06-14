@@ -36,6 +36,15 @@ section {
   border-bottom: 0.1rem solid #ccc;
 }
 
+.section {
+  transition: transform 1s, opacity 1s;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(5rem);
+}
+
 a {
   text-decoration: none;
 }
