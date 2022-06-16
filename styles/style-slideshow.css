@@ -1,0 +1,135 @@
+/* setup COMMENT */
+.project-li {
+  position: relative;
+}
+
+.project-slide-window {
+  width: 45%;
+  overflow: hidden;
+}
+.project-slide-window--odd {
+  box-shadow: -0.5rem 0.5rem 1rem #ccc;
+}
+.project-slide-window--even {
+  box-shadow: 0.5rem 0.5rem 1rem #ccc;
+}
+
+.project-slide-band {
+  width: 1000%;
+  display: flex;
+}
+
+.project-slide-band input {
+  display: none;
+}
+
+.project-slide {
+  width: 10%;
+  transition: margin-left 1s;
+}
+
+.project-slide img {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+/* manual navigation COMMENT */
+
+.radio-btns {
+  position: absolute;
+  width: 45%;
+  bottom: -3.5rem;
+  display: flex;
+  padding: 0 10rem;
+  justify-content: space-around;
+}
+
+.radio-btn {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 0.2rem solid #555;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.radio-btn:hover {
+  background-color: #555;
+}
+
+/* automatic navigation COMMENT */
+
+.navigation-auto {
+  position: absolute;
+  bottom: -3.5rem;
+  width: 45%;
+  display: flex;
+  padding: 0 10rem;
+  justify-content: space-around;
+}
+
+.navigation-auto div {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 0.2rem solid #555;
+}
+
+/* project1 slide control COMMENT */
+#project1-radio1:checked ~ .first-slide {
+  margin-left: 0%;
+}
+#project1-radio2:checked ~ .first-slide {
+  margin-left: -10%;
+}
+#project1-radio3:checked ~ .first-slide {
+  margin-left: -20%;
+}
+#project1-radio4:checked ~ .first-slide {
+  margin-left: -30%;
+}
+#project1-radio5:checked ~ .first-slide {
+  margin-left: -40%;
+}
+#project1-radio6:checked ~ .first-slide {
+  margin-left: -50%;
+}
+
+#project1-radio1:checked ~ .navigation-auto .auto-btn1 {
+  background-color: #555;
+}
+#project1-radio2:checked ~ .navigation-auto .auto-btn2 {
+  background-color: #555;
+}
+#project1-radio3:checked ~ .navigation-auto .auto-btn3 {
+  background-color: #555;
+}
+#project1-radio4:checked ~ .navigation-auto .auto-btn4 {
+  background-color: #555;
+}
+#project1-radio5:checked ~ .navigation-auto .auto-btn5 {
+  background-color: #555;
+}
+#project1-radio6:checked ~ .navigation-auto .auto-btn6 {
+  background-color: #555;
+}
+
+/* project2 slide control COMMENT */
+#project2-radio1:checked ~ .first-slide {
+  margin-left: 0%;
+}
+#project2-radio2:checked ~ .first-slide {
+  margin-left: -10%;
+}
+#project2-radio3:checked ~ .first-slide {
+  margin-left: -20%;
+}
+
+#project2-radio1:checked ~ .navigation-auto .auto-btn1 {
+  background-color: #555;
+}
+#project2-radio2:checked ~ .navigation-auto .auto-btn2 {
+  background-color: #555;
+}
+#project2-radio3:checked ~ .navigation-auto .auto-btn3 {
+  background-color: #555;
+}
