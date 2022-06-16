@@ -216,7 +216,9 @@ u {
 
 .project-introduction {
   width: 45%;
-  margin: 0 auto;
+}
+.project-introduction--even {
+  padding-left: 10%;
 }
 
 .project-name {
@@ -226,6 +228,10 @@ u {
 .project-specific-info {
   gap: 1.5rem;
   padding-left: 3rem;
+}
+
+.project-description {
+  width: 80%;
 }
 
 .techs-used {
