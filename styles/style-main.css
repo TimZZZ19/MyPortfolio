@@ -214,23 +214,6 @@ u {
 
 /* PROJECTS */
 
-.project-slide-window {
-  width: 45%;
-}
-.project-slide-window--odd {
-  box-shadow: -0.5rem 0.5rem 1rem #ccc;
-}
-.project-slide-window--even {
-  box-shadow: 0.5rem 0.5rem 1rem #ccc;
-}
-
-.project-slide-window img {
-  max-width: 100%;
-  max-height: 100%;
-  margin: auto;
-  display: block;
-}
-
 .project-introduction {
   width: 45%;
 }
