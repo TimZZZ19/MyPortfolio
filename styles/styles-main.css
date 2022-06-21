@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: #555;
@@ -67,7 +67,7 @@ u {
 }
 
 .container {
-  width: 80%;
+  /* width: 80%; */
   margin: 0 auto;
 }
 
@@ -121,7 +121,7 @@ u {
 .header {
   height: 10rem;
   align-items: center;
-  padding: 0 6rem;
+  /* padding: 0 6rem; */
   box-shadow: 0rem 0.3rem 0.8rem #ccc;
 
   position: sticky;
@@ -168,6 +168,10 @@ u {
 }
 
 /* HERO */
+
+.hero-container {
+  align-items: start;
+}
 
 .self-intro {
   width: 50%;
