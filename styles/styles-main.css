@@ -177,6 +177,10 @@ u {
   width: 50%;
 }
 
+.tech-stack h2 {
+  margin-bottom: 1rem;
+}
+
 .resume {
   color: #4957f0;
   font-style: italic;
