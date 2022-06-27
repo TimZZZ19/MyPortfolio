@@ -74,7 +74,7 @@
   border: 0.2rem solid #555;
 }
 
-/* project1 slide control COMMENT */
+/* PROJECT1 slide control COMMENT */
 #project1-radio1:checked ~ .first-slide {
   margin-left: 0%;
 }
@@ -113,7 +113,7 @@
   background-color: #555;
 }
 
-/* project2 slide control COMMENT */
+/* PROJECT2 slide control COMMENT */
 #project2-radio1:checked ~ .first-slide {
   margin-left: 0%;
 }
@@ -134,7 +134,7 @@
   background-color: #555;
 }
 
-/* project3 slide control COMMENT */
+/* PROJECT3 slide control COMMENT */
 #project3-radio1:checked ~ .first-slide {
   margin-left: 0%;
 }
@@ -158,5 +158,20 @@
   background-color: #555;
 }
 #project3-radio4:checked ~ .navigation-auto .auto-btn4 {
+  background-color: #555;
+}
+
+/* PROJECT4 slide control COMMENT */
+#project4-radio1:checked ~ .first-slide {
+  margin-left: 0%;
+}
+#project4-radio2:checked ~ .first-slide {
+  margin-left: -10%;
+}
+
+#project4-radio1:checked ~ .navigation-auto .auto-btn1 {
+  background-color: #555;
+}
+#project4-radio2:checked ~ .navigation-auto .auto-btn2 {
   background-color: #555;
 }
