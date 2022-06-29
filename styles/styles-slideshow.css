@@ -6,7 +6,7 @@
 .project-slide-window {
   width: 45%;
   overflow: hidden;
-  border-radius: 0.8rem;
+  border-radius: 1rem;
 }
 .project-slide-window--odd {
   box-shadow: -0.5rem 0.5rem 1rem #ccc;
