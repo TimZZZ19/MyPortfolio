@@ -179,6 +179,16 @@ u {
 
 .tech-stack h2 {
   margin-bottom: 1rem;
+  line-height: 1;
+}
+
+.skill-assessment {
+  font-size: 1.4rem;
+  /* display: inline-block; */
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #4957f0;
 }
 
 .resume {
