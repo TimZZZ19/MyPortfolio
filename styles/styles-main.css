@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: #555;
@@ -130,6 +130,13 @@ u {
   background-color: inherit;
 
   z-index: 1;
+
+  transition: all 1s;
+}
+
+.header--hidden {
+  opacity: 0;
+  transform: translateY(-100%);
 }
 
 .header-brand {
@@ -208,6 +215,12 @@ u {
 
 .skills {
   width: 26%;
+  transition: all 1s;
+}
+
+.skills--hidden {
+  transform: translateX(100%);
+  opacity: 0;
 }
 
 /* CERTIFICATES */
