@@ -182,6 +182,11 @@ u {
 
 .self-intro {
   width: 50%;
+  transition: opacity 2s;
+}
+
+.self-intro--hidden {
+  opacity: 0;
 }
 
 .tech-stack h2 {

@@ -139,3 +139,24 @@ const headerObserver = new IntersectionObserver(revealHeader, {
 });
 
 headerObserver.observe(header);
+
+// *************************
+// SELF-INTRO REVEALING
+// *************************
+const selfIntro = document.querySelector(".self-intro");
+
+const revealSelfIntro = (entries, observer) => {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) return;
+    entry.target.classList.remove("self-intro--hidden");
+    observer.unobserve(entry.target);
+  });
+};
+
+const selfIntroObserver = new IntersectionObserver(revealSelfIntro, {
+  root: null,
+  rootMargin: "0px 0px -50% 0px",
+  threshold: 0,
+});
+
+selfIntroObserver.observe(selfIntro);
