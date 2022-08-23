@@ -34,20 +34,18 @@ manualNavigation2.addEventListener("click", (e) => {
 
 // slideshow for project3 COMMENT
 
-// let counter3 = 1
-// let timer3 = getTimer(counter3, 'project3', 4)
+let counter3 = 1;
+let timer3 = getTimer(counter3, "project3", 2);
 
-// const manualNavigation3 = document.querySelector('.radio-btns--project3')
-// manualNavigation3.addEventListener('click', (e) => {
-//   clearInterval(timer3)
-//   const label = e.target.getAttribute('for')
-//   if (label === 'project3-radio1') counter3 = 1
-//   if (label === 'project3-radio2') counter3 = 2
-//   if (label === 'project3-radio3') counter3 = 3
-//   if (label === 'project3-radio4') counter3 = 4
+const manualNavigation3 = document.querySelector(".radio-btns--project3");
+manualNavigation3.addEventListener("click", (e) => {
+  clearInterval(timer3);
+  const label = e.target.getAttribute("for");
+  if (label === "project3-radio1") counter3 = 1;
+  if (label === "project3-radio2") counter3 = 2;
 
-//   timer3 = getTimer(counter3, 'project3', 4)
-// })
+  timer3 = getTimer(counter3, "project3", 2);
+});
 
 // slideshow for project4 COMMENT
 
