@@ -157,10 +157,16 @@
 #project4-radio2:checked ~ .first-slide {
   margin-left: -10%;
 }
+#project4-radio3:checked ~ .first-slide {
+  margin-left: -20%;
+}
 
 #project4-radio1:checked ~ .navigation-auto .auto-btn1 {
   background-color: #555;
 }
 #project4-radio2:checked ~ .navigation-auto .auto-btn2 {
+  background-color: #555;
+}
+#project4-radio3:checked ~ .navigation-auto .auto-btn3 {
   background-color: #555;
 }

@@ -50,7 +50,7 @@ manualNavigation3.addEventListener("click", (e) => {
 // slideshow for project4 COMMENT
 
 let counter4 = 1;
-let timer4 = getTimer(counter4, "project4", 2);
+let timer4 = getTimer(counter4, "project4", 3);
 
 const manualNavigation4 = document.querySelector(".radio-btns--project4");
 manualNavigation4.addEventListener("click", (e) => {
@@ -58,8 +58,9 @@ manualNavigation4.addEventListener("click", (e) => {
   const label = e.target.getAttribute("for");
   if (label === "project4-radio1") counter4 = 1;
   if (label === "project4-radio2") counter4 = 2;
+  if (label === "project4-radio2") counter4 = 3;
 
-  timer4 = getTimer(counter4, "project4", 2);
+  timer4 = getTimer(counter4, "project4", 3);
 });
 
 // utility function COMMENT
