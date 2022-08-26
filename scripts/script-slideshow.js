@@ -1,75 +1,133 @@
-// slideshow for project1 COMMENT
-let counter1 = 1;
-let timer1 = getTimer(counter1, "project1", 6);
+import Slide from "./components/Slide.js";
 
-const manualNavigation1 = document.querySelector(".radio-btns--project1");
-manualNavigation1.addEventListener("click", (e) => {
-  clearInterval(timer1);
-  const label = e.target.getAttribute("for");
-  if (label === "project1-radio1") counter1 = 1;
-  if (label === "project1-radio2") counter1 = 2;
-  if (label === "project1-radio3") counter1 = 3;
-  if (label === "project1-radio4") counter1 = 4;
-  if (label === "project1-radio5") counter1 = 5;
-  if (label === "project1-radio6") counter1 = 6;
+/* PROJECT1 COMMENT */
+let counter1, timer1, manualNav1;
+const projectOneImgArr1 = [
+  "./images/Turtle'sBarAndGrill/turtle's bar and grill (1).PNG",
+  "./images/Turtle'sBarAndGrill/turtle's bar and grill (2).PNG",
+  "./images/Turtle'sBarAndGrill/turtle's bar and grill (3).PNG",
+  "./images/Turtle'sBarAndGrill/turtle's bar and grill (4).PNG",
+  "./images/Turtle'sBarAndGrill/turtle's bar and grill (5).PNG",
+  "./images/Turtle'sBarAndGrill/turtle's bar and grill (6).PNG",
+];
 
-  timer1 = getTimer(counter1, "project1", 6);
-});
+Slide.activate(
+  counter1,
+  timer1,
+  manualNav1,
+  projectOneImgArr1,
+  "1",
+  "odd",
+  "Turtle's Bar & Grill",
+  "A real-world website built for a popular local sports bar outside the White Sox stadium.",
+  "HTML, CSS, Vanilla JavaScript",
+  "https://stellar-elf-512e39.netlify.app/",
+  "https://github.com/TimZZZ19/Turtle-s"
+);
 
-// slideshow for project2 COMMENT
+/* PROJECT2 COMMENT */
+let counter2, timer2, manualNav2;
+const projectOneImgArr2 = [
+  "./images/WeatherApp/WeatherApp (1).PNG",
+  "./images/WeatherApp/WeatherApp (2).PNG",
+  "./images/WeatherApp/WeatherApp (3).PNG",
+];
 
-let counter2 = 1;
-let timer2 = getTimer(counter2, "project2", 3);
+Slide.activate(
+  counter2,
+  timer2,
+  manualNav2,
+  projectOneImgArr2,
+  "2",
+  "even",
+  "Weather App",
+  "A weather app.",
+  "React",
+  "https://mellifluous-pothos-355545.netlify.app/",
+  "https://github.com/TimZZZ19/WeatherApp"
+);
 
-const manualNavigation2 = document.querySelector(".radio-btns--project2");
-manualNavigation2.addEventListener("click", (e) => {
-  clearInterval(timer2);
-  const label = e.target.getAttribute("for");
-  if (label === "project2-radio1") counter2 = 1;
-  if (label === "project2-radio2") counter2 = 2;
-  if (label === "project2-radio3") counter2 = 3;
+/* PROJECT3 COMMENT */
+let counter3, timer3, manualNav3;
+const projectOneImgArr3 = [
+  "./images/TodoList/TodoList (1).png",
+  "./images/TodoList/TodoList (2).png",
+];
 
-  timer2 = getTimer(counter2, "project2", 3);
-});
+Slide.activate(
+  counter3,
+  timer3,
+  manualNav3,
+  projectOneImgArr3,
+  "3",
+  "odd",
+  "Todo List",
+  "A Todo list.",
+  "React",
+  "https://zingy-liger-c5e0ae.netlify.app/",
+  "https://github.com/TimZZZ19/TodoList"
+);
 
-// slideshow for project3 COMMENT
+/* PROJECT4 COMMENT */
+let counter4, timer4, manualNav4;
+const projectOneImgArr4 = [
+  "./images/FoodApp2/FoodApp2 (1).png",
+  "./images/FoodApp2/FoodApp2 (2).png",
+  "./images/FoodApp2/FoodApp2 (3).png",
+];
 
-let counter3 = 1;
-let timer3 = getTimer(counter3, "project3", 2);
+Slide.activate(
+  counter4,
+  timer4,
+  manualNav4,
+  projectOneImgArr4,
+  "4",
+  "even",
+  "FoodApp2",
+  "A fictional online food-ordering App.",
+  "React, Firebase Realtime Database",
+  "https://cute-cuchufli-1f8bd6.netlify.app/",
+  "https://github.com/TimZZZ19/FoodOrderApp2"
+);
 
-const manualNavigation3 = document.querySelector(".radio-btns--project3");
-manualNavigation3.addEventListener("click", (e) => {
-  clearInterval(timer3);
-  const label = e.target.getAttribute("for");
-  if (label === "project3-radio1") counter3 = 1;
-  if (label === "project3-radio2") counter3 = 2;
+/* PROJECT5 COMMENT */
+let counter5, timer5, manualNav5;
+const projectOneImgArr5 = [
+  "./images/CodingGuru/CodingGuru (1).PNG",
+  "./images/CodingGuru/CodingGuru (2).PNG",
+];
 
-  timer3 = getTimer(counter3, "project3", 2);
-});
+Slide.activate(
+  counter5,
+  timer5,
+  manualNav5,
+  projectOneImgArr5,
+  "5",
+  "odd",
+  "Coding Guru",
+  "Landing page for a fictional coding bootcamp",
+  "HTML, Tailwind, JavaScript",
+  "https://jazzy-lollipop-ed99d3.netlify.app/",
+  "https://github.com/TimZZZ19/CodingGuru"
+);
 
-// slideshow for project4 COMMENT
+/* PROJECT5 COMMENT */
+let counter6, timer6, manualNav6;
+const projectOneImgArr6 = [
+  "./images/MovieList/Capture.PNG",
+  "./images/MovieList/Capture.PNG",
+];
 
-let counter4 = 1;
-let timer4 = getTimer(counter4, "project4", 3);
-
-const manualNavigation4 = document.querySelector(".radio-btns--project4");
-manualNavigation4.addEventListener("click", (e) => {
-  clearInterval(timer4);
-  const label = e.target.getAttribute("for");
-  if (label === "project4-radio1") counter4 = 1;
-  if (label === "project4-radio2") counter4 = 2;
-  if (label === "project4-radio2") counter4 = 3;
-
-  timer4 = getTimer(counter4, "project4", 3);
-});
-
-// utility function COMMENT
-function getTimer(counter, project, uppperLimit) {
-  return setInterval(() => {
-    document.getElementById(project + "-radio" + counter).checked = true;
-    counter++;
-    if (counter > uppperLimit) {
-      counter = 1;
-    }
-  }, 3000);
-}
+Slide.activate(
+  counter6,
+  timer6,
+  manualNav6,
+  projectOneImgArr6,
+  "6",
+  "even",
+  "MyMovieList",
+  "A simple app for recording movies that I want to watch",
+  "HTML, Bootstrap, JavaScript",
+  "https://delicate-sprite-cdb0cb.netlify.app/",
+  "https://github.com/TimZZZ19/MovieList"
+);

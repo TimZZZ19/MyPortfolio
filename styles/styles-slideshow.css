@@ -170,3 +170,33 @@
 #project4-radio3:checked ~ .navigation-auto .auto-btn3 {
   background-color: #555;
 }
+
+/* PROJECT5 slide control COMMENT */
+#project5-radio1:checked ~ .first-slide {
+  margin-left: 0%;
+}
+#project5-radio2:checked ~ .first-slide {
+  margin-left: -10%;
+}
+
+#project5-radio1:checked ~ .navigation-auto .auto-btn1 {
+  background-color: #555;
+}
+#project5-radio2:checked ~ .navigation-auto .auto-btn2 {
+  background-color: #555;
+}
+
+/* PROJECT6 slide control COMMENT */
+#project6-radio1:checked ~ .first-slide {
+  margin-left: 0%;
+}
+#project6-radio2:checked ~ .first-slide {
+  margin-left: -10%;
+}
+
+#project6-radio1:checked ~ .navigation-auto .auto-btn1 {
+  background-color: #555;
+}
+#project6-radio2:checked ~ .navigation-auto .auto-btn2 {
+  background-color: #555;
+}
