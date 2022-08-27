@@ -114,8 +114,8 @@ Slide.activate(
 /* PROJECT5 COMMENT */
 let counter6, timer6, manualNav6;
 const projectOneImgArr6 = [
-  "./images/MovieList/Capture.PNG",
-  "./images/MovieList/Capture.PNG",
+  "./images/MovieList/MovieList (1).PNG",
+  "./images/MovieList/MovieList (2).PNG",
 ];
 
 Slide.activate(
@@ -129,5 +129,6 @@ Slide.activate(
   "A simple app for recording movies that I want to watch",
   "HTML, Bootstrap, JavaScript",
   "https://delicate-sprite-cdb0cb.netlify.app/",
-  "https://github.com/TimZZZ19/MovieList"
+  "https://github.com/TimZZZ19/MovieList",
+  false
 );
