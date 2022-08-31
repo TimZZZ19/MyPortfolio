@@ -19,7 +19,7 @@ Slide.activate(
   "1",
   "odd",
   "Turtle's Bar & Grill",
-  "A website built for a real local sports bar. <br> Used JS class with static methods to create UI components and gallery lightbox. <br> Used local storage to keep user data persistent.",
+  "A website built for a real local sports bar.<br> DOM manipulation, Intersection Oberver API. <br> Used JS class with static methods to create UI components and gallery lightbox. <br> Used local storage to keep user data persistent.",
   "HTML, CSS, Vanilla JavaScript",
   "https://stellar-elf-512e39.netlify.app/",
   "https://github.com/TimZZZ19/Turtle-s"
@@ -41,7 +41,7 @@ Slide.activate(
   "2",
   "even",
   "FoodApp2",
-  "A fictional online food-ordering App.<br> Managed Frontend data with Context API. <br> Used Firebase Realtime Database for storing App and user data.",
+  "A fictional online food-ordering App.<br> Managed Frontend data with Context API. <br> Organized styles using CSS modules.<br> Used Firebase Realtime Database for storing App and user data.",
   "React, Firebase",
   "https://cute-cuchufli-1f8bd6.netlify.app/",
   "https://github.com/TimZZZ19/FoodOrderApp2"
@@ -62,7 +62,7 @@ Slide.activate(
   "3",
   "odd",
   "Coding Guru",
-  "Landing page for a fictional coding bootcamp. <br> Micmicked Coding Dojo's landing page. <br> My first time using a CSS framework.",
+  "Landing page for a fictional coding bootcamp. <br> Micmicked Coding Dojo's landing page. <br> My first tailwind project.",
   "HTML, Tailwind, JavaScript",
   "https://jazzy-lollipop-ed99d3.netlify.app/",
   "https://github.com/TimZZZ19/CodingGuru",
