@@ -45,7 +45,7 @@ class Slide {
                         `;
 
     const projectInfo = `
-                        <div class="project-introduction project-introduction--${evenOrOdd}">
+                        <div class="project-introduction ">
                             <h2 class="project-name">${projectName}</h2>
                             <div class="vertical-flex-box project-specific-info">
                               <p class="project-description">
@@ -65,7 +65,7 @@ class Slide {
                                   target="_blank"
                                   class="external-link"
                                 >
-                                  Show code
+                                  View code
                                 </a>
                               </div>
                             </div>

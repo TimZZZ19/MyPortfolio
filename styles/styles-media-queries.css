@@ -43,10 +43,6 @@
     display: flex;
   }
 
-  .project-introduction--odd {
-    padding-left: 10%;
-  }
-
   .footer {
     padding: 5rem 2rem 10rem;
   }
@@ -106,10 +102,6 @@
   .project-introduction {
     width: 45%;
     display: block;
-  }
-
-  .project-introduction--odd {
-    padding-left: 0;
   }
 
   .footer {

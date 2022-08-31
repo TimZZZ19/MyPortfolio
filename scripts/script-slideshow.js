@@ -19,7 +19,7 @@ Slide.activate(
   "1",
   "odd",
   "Turtle's Bar & Grill",
-  "A real-world website built for a popular local sports bar outside the White Sox stadium.",
+  "A website built for a real local sports bar. <br> Used JS class with static methods to create UI components and gallery lightbox. <br> Used local storage to keep user data persistent.",
   "HTML, CSS, Vanilla JavaScript",
   "https://stellar-elf-512e39.netlify.app/",
   "https://github.com/TimZZZ19/Turtle-s"
