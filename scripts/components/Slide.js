@@ -48,10 +48,9 @@ class Slide {
                         <div class="project-introduction ">
                             <h2 class="project-name">${projectName}</h2>
                             <div class="vertical-flex-box project-specific-info">
-                              <p class="project-description">
-                                ${projectDescription}
-                              </p>
                               <p class="techs-used">${techStack}</p>
+                              <ul id="project-${projectNumber}-description" class="project-description">
+                              </ul>
                               <div class="flex-box project-buttons">
                                 <a
                                   href=${projectLink}
@@ -83,6 +82,8 @@ class Slide {
                   `;
 
     projectsUnorderedList.insertAdjacentHTML("beforeend", slide);
+
+    this.appendProjectDescriptionItems(projectDescription, projectNumber);
 
     this.activateSlideShow(counter, timer, manualNav, projectIdName, imgArr);
   }
@@ -124,45 +125,6 @@ class Slide {
     }
 
     return slides;
-
-    // return `
-    //         <div class="project-slide first-slide">
-    //           <img
-    //             src="${arr[0]}"
-    //             alt="${projectName} first image"
-    //           />
-    //         </div>
-    //         <div class="project-slide">
-    //           <img
-    //             src="${arr[1]}"
-    //             alt="${projectName} second image"
-    //           />
-    //         </div>
-    //         <div class="project-slide">
-    //           <img
-    //             src="${arr[2]}"
-    //             alt="${projectName} third image"
-    //           />
-    //         </div>
-    //         <div class="project-slide">
-    //           <img
-    //             src="${arr[3]}"
-    //             alt="${projectName} fourth image"
-    //           />
-    //         </div>
-    //         <div class="project-slide">
-    //           <img
-    //             src="${arr[4]}"
-    //             alt="${projectName} fifth image"
-    //           />
-    //         </div>
-    //         <div class="project-slide">
-    //           <img
-    //             src="${arr[5]}"
-    //             alt="${projectName} sixth image"
-    //           />
-    //         </div>
-    //       `;
   }
 
   static generateAutoNavBtns(arr) {
@@ -197,6 +159,18 @@ class Slide {
               ${labels}
             </div>
           `;
+  }
+
+  static appendProjectDescriptionItems(description, number) {
+    const projectDescriptionUl = document.getElementById(
+      `project-${number}-description`
+    );
+
+    description.forEach((item) => {
+      const descriptionItem = document.createElement("li");
+      descriptionItem.innerHTML = item;
+      projectDescriptionUl.appendChild(descriptionItem);
+    });
   }
 
   static activateSlideShow(counter, timer, manualNav, projectIdName, arr) {

@@ -10,6 +10,12 @@ const projectOneImgArr1 = [
   "./images/Turtle'sBarAndGrill/turtle's bar and grill (5).PNG",
   "./images/Turtle'sBarAndGrill/turtle's bar and grill (6).PNG",
 ];
+const project1Description = [
+  "A website built for a real local sports bar.",
+  "DOM manipulation, Intersection Oberver API.",
+  "Used JS class with static methods to create UI components and gallery lightbox.",
+  "Used local storage for data persistence.",
+];
 
 Slide.activate(
   counter1,
@@ -19,7 +25,7 @@ Slide.activate(
   "1",
   "odd",
   "Turtle's Bar & Grill",
-  "A website built for a real local sports bar.<br> DOM manipulation, Intersection Oberver API. <br> Used JS class with static methods to create UI components and gallery lightbox. <br> Used local storage to keep user data persistent.",
+  project1Description,
   "HTML, CSS, Vanilla JavaScript",
   "https://stellar-elf-512e39.netlify.app/",
   "https://github.com/TimZZZ19/Turtle-s"
@@ -33,6 +39,13 @@ const projectOneImgArr2 = [
   "./images/FoodApp2/FoodApp2 (3).png",
 ];
 
+const project2Description = [
+  "A fictional online food-ordering App.",
+  "Managed states with Context API.",
+  "Organized styles using CSS modules.",
+  "Used Firebase Realtime Database for storing App and user data.",
+];
+
 Slide.activate(
   counter2,
   timer2,
@@ -41,7 +54,7 @@ Slide.activate(
   "2",
   "even",
   "FoodApp2",
-  "A fictional online food-ordering App.<br> Managed Frontend data with Context API. <br> Organized styles using CSS modules.<br> Used Firebase Realtime Database for storing App and user data.",
+  project2Description,
   "React, Firebase",
   "https://cute-cuchufli-1f8bd6.netlify.app/",
   "https://github.com/TimZZZ19/FoodOrderApp2"
@@ -53,6 +66,11 @@ const projectOneImgArr3 = [
   "./images/CodingGuru/CodingGuru (1).PNG",
   "./images/CodingGuru/CodingGuru (2).PNG",
 ];
+const project3Description = [
+  "Landing page for a fictional coding bootcamp.",
+  "Micmicked Coding Dojo's landing page.",
+  "My first tailwind project.",
+];
 
 Slide.activate(
   counter3,
@@ -62,8 +80,8 @@ Slide.activate(
   "3",
   "odd",
   "Coding Guru",
-  "Landing page for a fictional coding bootcamp. <br> Micmicked Coding Dojo's landing page. <br> My first tailwind project.",
-  "HTML, Tailwind, JavaScript",
+  project3Description,
+  "HTML, Tailwind, Vanilla JavaScript",
   "https://jazzy-lollipop-ed99d3.netlify.app/",
   "https://github.com/TimZZZ19/CodingGuru",
   false
