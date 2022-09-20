@@ -82,7 +82,7 @@ Slide.activate(
   "Coding Guru",
   project3Description,
   "HTML, Tailwind, Vanilla JavaScript",
-  "https://jazzy-lollipop-ed99d3.netlify.app/",
+  "https://coding-guru.netlify.app/",
   "https://github.com/TimZZZ19/CodingGuru",
   false
 );
