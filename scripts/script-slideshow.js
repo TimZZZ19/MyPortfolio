@@ -27,7 +27,7 @@ Slide.activate(
   "Turtle's Bar & Grill",
   project1Description,
   "HTML, CSS, Vanilla JavaScript",
-  "https://stellar-elf-512e39.netlify.app/",
+  "https://turtles-bar-and-grill.netlify.app/",
   "https://github.com/TimZZZ19/Turtle-s"
 );
 
