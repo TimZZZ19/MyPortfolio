@@ -56,7 +56,7 @@ Slide.activate(
   "FoodApp2",
   project2Description,
   "React, Firebase",
-  "https://cute-cuchufli-1f8bd6.netlify.app/",
+  "https://food-order-react-app2.netlify.app/",
   "https://github.com/TimZZZ19/FoodOrderApp2"
 );
 
