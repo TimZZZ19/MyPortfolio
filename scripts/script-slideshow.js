@@ -84,5 +84,32 @@ Slide.activate(
   "HTML, Tailwind, Vanilla JavaScript",
   "https://coding-guru.netlify.app/",
   "https://github.com/TimZZZ19/CodingGuru",
+  true
+);
+
+/* PROJECT4 COMMENT */
+let counter4, timer4, manualNav4;
+const projectOneImgArr4 = [
+  "./images/PigGame/PigGame1.png",
+  "./images/PigGame/PigGame2.png",
+];
+const project4Description = [
+  "A simple dice game.",
+  "Data management with useReducer.",
+  "Online multi-player mode with Socket.io",
+];
+
+Slide.activate(
+  counter4,
+  timer4,
+  manualNav4,
+  projectOneImgArr4,
+  "4",
+  "even",
+  "Pig Game",
+  project4Description,
+  "React, Socket.io",
+  "https://pig-game-with-multiplayer-mode.netlify.app/",
+  "https://github.com/TimZZZ19/Pig-game-recreation-with-React",
   false
 );
