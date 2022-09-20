@@ -90,6 +90,7 @@ Slide.activate(
 /* PROJECT4 COMMENT */
 let counter4, timer4, manualNav4;
 const projectOneImgArr4 = [
+  "./images/PigGame/PigGame.png",
   "./images/PigGame/PigGame1.png",
   "./images/PigGame/PigGame2.png",
 ];
