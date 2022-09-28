@@ -112,7 +112,7 @@ Slide.activate(
   "React, Socket.io",
   "https://pig-game-with-multiplayer-mode.netlify.app/",
   "https://github.com/TimZZZ19/Pig-game-recreation-with-React",
-  false
+  true
 );
 /* PROJECT5 COMMENT */
 let counter5, timer5, manualNav5;
