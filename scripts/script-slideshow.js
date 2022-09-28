@@ -123,7 +123,7 @@ const projectOneImgArr5 = [
 const project5Description = [
   "A simple Todo List.",
   "Data persistence using local storage.",
-  "Clever use of useEffect hook",
+  "Skillful uses of useEffect hook",
 ];
 
 Slide.activate(
