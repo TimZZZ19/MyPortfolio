@@ -189,6 +189,10 @@ u {
   opacity: 0;
 }
 
+.self-intro-text p {
+  text-align: justify;
+}
+
 .tech-stack h2 {
   margin-bottom: 1rem;
   line-height: 1;
