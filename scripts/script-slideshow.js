@@ -97,7 +97,7 @@ const projectOneImgArr4 = [
 const project4Description = [
   "A simple dice game.",
   "Data management with useReducer.",
-  "Online multi-player mode with Socket.io",
+  "Online multi-player mode with Socket.io (<i>still under development</i>)",
 ];
 
 Slide.activate(
