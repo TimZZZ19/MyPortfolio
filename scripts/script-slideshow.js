@@ -114,3 +114,29 @@ Slide.activate(
   "https://github.com/TimZZZ19/Pig-game-recreation-with-React",
   false
 );
+/* PROJECT5 COMMENT */
+let counter5, timer5, manualNav5;
+const projectOneImgArr5 = [
+  "./images/TodoList/TodoList (1).png",
+  "./images/TodoList/TodoList (2).png",
+];
+const project5Description = [
+  "A simple Todo List.",
+  "Data persistence using local storage.",
+  "Clever use of useEffect hook",
+];
+
+Slide.activate(
+  counter5,
+  timer5,
+  manualNav5,
+  projectOneImgArr5,
+  "5",
+  "odd",
+  "Tim's Todo List",
+  project5Description,
+  "React",
+  "https://tims-todo-list.netlify.app/",
+  "https://github.com/TimZZZ19/TodoList",
+  true
+);
