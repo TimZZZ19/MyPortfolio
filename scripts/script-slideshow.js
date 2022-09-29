@@ -175,7 +175,7 @@ const previewImgArr7 = [
 ];
 const project7Description = [
   "Simple UI built using Boostrap and pure JavaScript",
-  "My first bootstrap project, made see what Bootstrap was really about",
+  "My first bootstrap project, made me me see what Bootstrap was really about",
 ];
 
 Slide.activate(
