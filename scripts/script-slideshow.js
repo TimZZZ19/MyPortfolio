@@ -123,7 +123,7 @@ const previewImgArr5 = [
 const project5Description = [
   "A simple Todo List.",
   "Data persistence using local storage.",
-  "Skillful uses of useEffect hook.",
+  "Implemented auto focus by useRef and useEffect.",
 ];
 
 Slide.activate(
