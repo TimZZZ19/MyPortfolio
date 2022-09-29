@@ -197,10 +197,31 @@
 #project6-radio2:checked ~ .first-slide {
   margin-left: -10%;
 }
+#project6-radio3:checked ~ .first-slide {
+  margin-left: -20%;
+}
 
 #project6-radio1:checked ~ .navigation-auto .auto-btn1 {
   background-color: #555;
 }
 #project6-radio2:checked ~ .navigation-auto .auto-btn2 {
+  background-color: #555;
+}
+#project6-radio3:checked ~ .navigation-auto .auto-btn3 {
+  background-color: #555;
+}
+
+/* PROJECT7 slide control COMMENT */
+#project7-radio1:checked ~ .first-slide {
+  margin-left: 0%;
+}
+#project7-radio2:checked ~ .first-slide {
+  margin-left: -10%;
+}
+
+#project7-radio1:checked ~ .navigation-auto .auto-btn1 {
+  background-color: #555;
+}
+#project7-radio2:checked ~ .navigation-auto .auto-btn2 {
   background-color: #555;
 }

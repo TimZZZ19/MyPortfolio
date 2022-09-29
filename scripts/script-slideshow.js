@@ -2,7 +2,7 @@ import Slide from "./components/Slide.js";
 
 /* PROJECT1 COMMENT */
 let counter1, timer1, manualNav1;
-const projectOneImgArr1 = [
+const previewImgArr1 = [
   "./images/Turtle'sBarAndGrill/turtle's bar and grill (1).PNG",
   "./images/Turtle'sBarAndGrill/turtle's bar and grill (2).PNG",
   "./images/Turtle'sBarAndGrill/turtle's bar and grill (3).PNG",
@@ -21,7 +21,7 @@ Slide.activate(
   counter1,
   timer1,
   manualNav1,
-  projectOneImgArr1,
+  previewImgArr1,
   "1",
   "odd",
   "Turtle's Bar & Grill",
@@ -33,7 +33,7 @@ Slide.activate(
 
 /* PROJECT2 COMMENT */
 let counter2, timer2, manualNav2;
-const projectOneImgArr2 = [
+const previewImgArr2 = [
   "./images/FoodApp2/FoodApp2 (1).png",
   "./images/FoodApp2/FoodApp2 (2).png",
   "./images/FoodApp2/FoodApp2 (3).png",
@@ -50,7 +50,7 @@ Slide.activate(
   counter2,
   timer2,
   manualNav2,
-  projectOneImgArr2,
+  previewImgArr2,
   "2",
   "even",
   "FoodApp2",
@@ -62,7 +62,7 @@ Slide.activate(
 
 /* PROJECT3 COMMENT */
 let counter3, timer3, manualNav3;
-const projectOneImgArr3 = [
+const previewImgArr3 = [
   "./images/CodingGuru/CodingGuru (1).PNG",
   "./images/CodingGuru/CodingGuru (2).PNG",
 ];
@@ -76,7 +76,7 @@ Slide.activate(
   counter3,
   timer3,
   manualNav3,
-  projectOneImgArr3,
+  previewImgArr3,
   "3",
   "odd",
   "Coding Guru",
@@ -89,7 +89,7 @@ Slide.activate(
 
 /* PROJECT4 COMMENT */
 let counter4, timer4, manualNav4;
-const projectOneImgArr4 = [
+const previewImgArr4 = [
   "./images/PigGame/PigGame.png",
   "./images/PigGame/PigGame1.png",
   "./images/PigGame/PigGame2.png",
@@ -104,7 +104,7 @@ Slide.activate(
   counter4,
   timer4,
   manualNav4,
-  projectOneImgArr4,
+  previewImgArr4,
   "4",
   "even",
   "Pig Game",
@@ -116,7 +116,7 @@ Slide.activate(
 );
 /* PROJECT5 COMMENT */
 let counter5, timer5, manualNav5;
-const projectOneImgArr5 = [
+const previewImgArr5 = [
   "./images/TodoList/TodoList (1).png",
   "./images/TodoList/TodoList (2).png",
 ];
@@ -130,7 +130,7 @@ Slide.activate(
   counter5,
   timer5,
   manualNav5,
-  projectOneImgArr5,
+  previewImgArr5,
   "5",
   "odd",
   "Tim's Todo List",
@@ -139,4 +139,56 @@ Slide.activate(
   "https://tims-todo-list.netlify.app/",
   "https://github.com/TimZZZ19/TodoList",
   true
+);
+
+/* PROJECT6 COMMENT */
+let counter6, timer6, manualNav6;
+const previewImgArr6 = [
+  "./images/WeatherApp/WeatherApp (1).PNG",
+  "./images/WeatherApp/WeatherApp (2).PNG",
+  "./images/WeatherApp/WeatherApp (3).PNG",
+];
+const project6Description = [
+  "Weather app that takes a location from user and spits out a weather report",
+  "Fetched weahter data from a third party API",
+];
+
+Slide.activate(
+  counter6,
+  timer6,
+  manualNav6,
+  previewImgArr6,
+  "6",
+  "even",
+  "Weather App",
+  project6Description,
+  "React",
+  "https://weahter-app.netlify.app/",
+  "https://github.com/TimZZZ19/WeatherApp",
+  true
+);
+/* PROJECT7 COMMENT */
+let counter7, timer7, manualNav7;
+const previewImgArr7 = [
+  "./images/MovieList/MovieList (1).PNG",
+  "./images/MovieList/MovieList (2).PNG",
+];
+const project7Description = [
+  "Simple UI built using Boostrap and pure JavaScript",
+  "My first bootstrap project, made see what Bootstrap was really about",
+];
+
+Slide.activate(
+  counter7,
+  timer7,
+  manualNav7,
+  previewImgArr7,
+  "7",
+  "odd",
+  "My Movie List",
+  project7Description,
+  "Bootstrap, Vanilla JavaScript",
+  "https://movie-list-with-boostrap-and-js.netlify.app/",
+  "https://github.com/TimZZZ19/MovieList",
+  false
 );
