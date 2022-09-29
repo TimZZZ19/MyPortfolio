@@ -97,7 +97,7 @@ const previewImgArr4 = [
 const project4Description = [
   "A simple dice game.",
   "Data management with useReducer.",
-  "Online multi-player mode with Socket.io (<i>still under development</i>)",
+  "Online multi-player mode with Socket.io. (<i>still under development</i>)",
 ];
 
 Slide.activate(
@@ -123,7 +123,7 @@ const previewImgArr5 = [
 const project5Description = [
   "A simple Todo List.",
   "Data persistence using local storage.",
-  "Skillful uses of useEffect hook",
+  "Skillful uses of useEffect hook.",
 ];
 
 Slide.activate(
@@ -149,8 +149,8 @@ const previewImgArr6 = [
   "./images/WeatherApp/WeatherApp (3).PNG",
 ];
 const project6Description = [
-  "Weather app that takes a location from user and spits out a weather report",
-  "Fetched weahter data from a third party API",
+  "Weather app that takes a location from user and spits out a weather report.",
+  "Fetched weahter data from a third party API.",
 ];
 
 Slide.activate(
@@ -174,8 +174,8 @@ const previewImgArr7 = [
   "./images/MovieList/MovieList (2).PNG",
 ];
 const project7Description = [
-  "Simple UI built using Boostrap and pure JavaScript",
-  "My first bootstrap project, made me me see what Bootstrap was really about",
+  "Simple UI built using Boostrap and pure JavaScript.",
+  "My first bootstrap project, made me me see what Bootstrap was really about.",
 ];
 
 Slide.activate(
