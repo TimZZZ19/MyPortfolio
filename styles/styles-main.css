@@ -272,6 +272,7 @@ u {
 .project-description {
   width: 100%;
   list-style-type: disc;
+  margin-top: 1.5rem;
 }
 
 .techs-used {
@@ -284,6 +285,7 @@ u {
   justify-content: start;
   gap: 3rem;
   padding-left: 1.5rem;
+  margin-top: 3rem;
 }
 
 /* FOOTER */

@@ -47,7 +47,7 @@ class Slide {
     const projectInfo = `
                         <div class="project-introduction ">
                             <h2 class="project-name">${projectName}</h2>
-                            <div class="vertical-flex-box project-specific-info">
+                            <div class="project-specific-info">
                               <p class="techs-used">${techStack}</p>
                               <ul id="project-${projectNumber}-description" class="project-description">
                               </ul>
