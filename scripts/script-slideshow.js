@@ -150,7 +150,7 @@ const previewImgArr6 = [
 ];
 const project6Description = [
   "Weather app that takes a location from user and spits out a weather report.",
-  "Fetched weahter data from a third party API.",
+  "Fetched weahter data from a third party API using Axios.",
 ];
 
 Slide.activate(
