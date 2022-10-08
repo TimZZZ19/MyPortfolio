@@ -97,7 +97,6 @@ const previewImgArr4 = [
 const project4Description = [
   "A simple dice game.",
   "Data management with useReducer.",
-  "Online multi-player mode with Socket.io. (<i>still under development</i>)",
 ];
 
 Slide.activate(
@@ -109,8 +108,8 @@ Slide.activate(
   "even",
   "Pig Game",
   project4Description,
-  "React, Socket.io",
-  "https://pig-game-with-multiplayer-mode.netlify.app/",
+  "React",
+  "https://pig-game-with-multiple-modes.netlify.app/",
   "https://github.com/TimZZZ19/Pig-game-recreation-with-React",
   true
 );
