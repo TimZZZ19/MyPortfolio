@@ -11,10 +11,9 @@ const previewImgArr1 = [
   "./images/Turtle'sBarAndGrill/turtle's bar and grill (6).PNG",
 ];
 const project1Description = [
-  "A website built for a real local sports bar.",
-  "DOM manipulation, Intersection Oberver API.",
-  "Used JS class with static methods to create UI components and gallery lightbox.",
-  "Used local storage for data persistence.",
+  "A website built for a popular local sports bar;",
+  "Worked with Web APIs, including DOM, Local Storage, Intersection Observer API;",
+  "Developed a well-organized food-ordering system in JavaScript.",
 ];
 
 Slide.activate(
@@ -40,9 +39,8 @@ const previewImgArr2 = [
 ];
 
 const project2Description = [
-  "A fictional online food-ordering App.",
-  "Managed states with Context API.",
-  "Organized styles using CSS modules.",
+  "A fictional online food-ordering App;",
+  "Managed states with Context API;",
   "Used Firebase Realtime Database for storing App and user data.",
 ];
 
@@ -67,9 +65,8 @@ const previewImgArr3 = [
   "./images/CodingGuru/CodingGuru (2).PNG",
 ];
 const project3Description = [
-  "Landing page for a fictional coding bootcamp.",
+  "Landing page for a fictional coding bootcamp;",
   "Micmicked Coding Dojo's landing page.",
-  "My first tailwind project.",
 ];
 
 Slide.activate(
@@ -95,8 +92,8 @@ const previewImgArr4 = [
   "./images/PigGame/PigGame2.png",
 ];
 const project4Description = [
-  "A simple dice game.",
-  "Data management with useReducer.",
+  "A simple dice game;",
+  "Data management with useReducer;",
 ];
 
 Slide.activate(
