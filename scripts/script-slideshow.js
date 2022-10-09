@@ -93,8 +93,9 @@ const previewImgArr4 = [
   "./images/PigGame/PigGame2.png",
 ];
 const project4Description = [
-  "A simple dice game;",
-  "Data management with useReducer;",
+  "The classic dice game brought to live with React;",
+  "Designed and developed a new game mode;",
+  "Software system designed in high cohesion and low coupling.",
 ];
 
 Slide.activate(
@@ -120,7 +121,7 @@ const previewImgArr5 = [
 const project5Description = [
   "A simple Todo List.",
   "Data persistence using local storage.",
-  "Implemented auto focus by useRef and useEffect.",
+  "Implemented auto focus by useRef and useEffect. ",
 ];
 
 Slide.activate(
