@@ -40,9 +40,9 @@ const previewImgArr2 = [
 
 const project2Description = [
   "A fictional online food-ordering App;",
+  "Covered all the basics in React, including components, props, state, hooks, css module;",
   "Managed global states with Context API;",
-  "Used Firebase realtime databse to store data;",
-  "Covered common React hooks, such as useState, useEffect, useRef.",
+  "Used Firebase realtime database to store data.",
 ];
 
 Slide.activate(
@@ -67,7 +67,7 @@ const previewImgArr3 = [
 ];
 const project3Description = [
   "Landing page for a fictional coding bootcamp;",
-  "Micmicked Coding Dojo's landing page.",
+  "Micmicked Coding Dojo's landing page with Tailwind.",
 ];
 
 Slide.activate(
@@ -79,7 +79,7 @@ Slide.activate(
   "odd",
   "Coding Guru",
   project3Description,
-  "HTML, Tailwind, Vanilla JavaScript",
+  "Tailwind",
   "https://coding-guru.netlify.app/",
   "https://github.com/TimZZZ19/CodingGuru",
   true
@@ -95,7 +95,7 @@ const previewImgArr4 = [
 const project4Description = [
   "The classic dice game brought to live with React;",
   "Designed and developed a new game mode;",
-  "Software system designed in high cohesion and low coupling.",
+  "Developed a highly cohesive and loosely coupled software system.",
 ];
 
 Slide.activate(
@@ -119,9 +119,8 @@ const previewImgArr5 = [
   "./images/TodoList/TodoList (2).png",
 ];
 const project5Description = [
-  "A simple Todo List.",
-  "Data persistence using local storage.",
-  "Implemented auto focus by useRef and useEffect. ",
+  "Kept data persistence between refreshes using local storage;",
+  "Used UUID to generate unique IDs for list items (not on the fly).",
 ];
 
 Slide.activate(
