@@ -171,7 +171,8 @@ const previewImgArr7 = [
   "./images/MovieList/MovieList (2).PNG",
 ];
 const project7Description = [
-  "Simple UI built using Boostrap and pure JavaScript.",
+  "Simple UI built using Boostrap and pure JavaScript;",
+  "Practiced object-oriented programming in JavaScript.",
 ];
 
 Slide.activate(
