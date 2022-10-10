@@ -12,7 +12,8 @@ const previewImgArr1 = [
 ];
 const project1Description = [
   "A website built for a popular local sports bar;",
-  "Worked with Web APIs, including DOM, Local Storage, Intersection Observer API;",
+  "Fully-responsive, compatible with mobile device;",
+  "Worked with Web APIs, like DOM, Local Storage;",
   "Developed a well-organized food-ordering system in JavaScript.",
 ];
 
