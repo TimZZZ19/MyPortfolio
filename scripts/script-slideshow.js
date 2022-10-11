@@ -12,7 +12,7 @@ const previewImgArr1 = [
 ];
 const project1Description = [
   "A website built for a popular local sports bar;",
-  "Fully-responsive, compatible with mobile device;",
+  "Fully responsive for different screen sizes",
   "Worked with Web APIs, like DOM, Local Storage;",
   "Developed a well-organized food-ordering system in JavaScript.",
 ];
@@ -109,7 +109,7 @@ Slide.activate(
   "Pig Game",
   project4Description,
   "React",
-  "https://pig-game-with-multiple-modes.netlify.app/",
+  "https://pig-game-with-timer-mode.netlify.app/",
   "https://github.com/TimZZZ19/Pig-game-recreation-with-React",
   true
 );
