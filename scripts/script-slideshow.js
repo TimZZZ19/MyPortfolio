@@ -95,8 +95,8 @@ const previewImgArr4 = [
 ];
 const project4Description = [
   "The classic dice game brought to live with React;",
-  "Designed and developed a new game mode;",
-  "Developed a highly cohesive and loosely coupled software system.",
+  "Designed and developed a new game mode - the timer mode, in which players compete against time;",
+  "Developed a highly cohesive and loosely coupled software system under the hood.",
 ];
 
 Slide.activate(
