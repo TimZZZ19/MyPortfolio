@@ -12,9 +12,12 @@ const previewImgArr1 = [
 ];
 const project1Description = [
   "A website built for a popular local sports bar;",
-  "Fully responsive for different screen sizes",
-  "Worked with Web APIs, like DOM, Local Storage;",
-  "Developed a well-organized food-ordering system in JavaScript.",
+  "Responsively designed for different screen sizes from desktop to mobile;",
+  "Added touch-screen swipe gestures for the gallery lightbox;",
+  "Used local storage to keep user data persistent across refreshes;",
+  "Used Intersection Observer API to implement webpage effects including navbar section indicator, content lazy loading, section revealing on scroll;",
+  "Wrote a massive amount of event listeners, reusable utility functions and JavaScript class-based UI components to form a well-organized programming system that handles all food-ordering actions from user;",
+  "Had independently written over 2000 lines of code in JavaScript and around 5000 in all three languages, practiced and mastered all the basics of CSS, HTML and JavaSript through this one project.",
 ];
 
 Slide.activate(
@@ -41,9 +44,9 @@ const previewImgArr2 = [
 
 const project2Description = [
   "A fictional online food-ordering App;",
-  "Covered all the basics in React, including components, props, state, hooks, css module;",
-  "Managed global states with Context API;",
-  "Used Firebase realtime database to store data.",
+  "Used Context API for managing global states;",
+  "Used Firebase realtime database to store order data.",
+  "Practiced all the basics in React, including components, props, state, hooks, portals, css module;",
 ];
 
 Slide.activate(
@@ -68,7 +71,8 @@ const previewImgArr3 = [
 ];
 const project3Description = [
   "Landing page for a fictional coding bootcamp;",
-  "Micmicked Coding Dojo's landing page with Tailwind.",
+  "Micmicked Coding Dojo's landing page with Tailwind;",
+  "Converted a design mock-up into a working responsive interface.",
 ];
 
 Slide.activate(
@@ -95,7 +99,8 @@ const previewImgArr4 = [
 ];
 const project4Description = [
   "The classic dice game brought to live with React;",
-  "Designed and developed a new game mode - the timer mode, in which players compete against time;",
+  "Developed an easy-to-use UI for user to control the game progress, select game modes, choose target score and time limit;",
+  "Designed and developed the timer mode, in which players compete against time;",
   "Developed a highly cohesive and loosely coupled software system under the hood.",
 ];
 
@@ -121,7 +126,8 @@ const previewImgArr5 = [
 ];
 const project5Description = [
   "Kept data persistence between refreshes using local storage;",
-  "Used UUID to generate unique IDs for list items (not on the fly).",
+  "Created a filter that classifies list items into completed and uncompleted items;",
+  "Used UUID to generate unique keys for list items (not on the fly).",
 ];
 
 Slide.activate(
@@ -148,7 +154,7 @@ const previewImgArr6 = [
 ];
 const project6Description = [
   "Implemented new features including tempature unit switch and the clock;",
-  "Fetched weahter data from a third party API using Axios.",
+  "Used Axios to fetch weahter data from a third party API",
 ];
 
 Slide.activate(
