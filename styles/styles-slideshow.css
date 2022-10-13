@@ -225,3 +225,18 @@
 #project7-radio2:checked ~ .navigation-auto .auto-btn2 {
   background-color: #555;
 }
+
+/* PROJECT8 slide control COMMENT */
+#project8-radio1:checked ~ .first-slide {
+  margin-left: 0%;
+}
+#project8-radio2:checked ~ .first-slide {
+  margin-left: -10%;
+}
+
+#project8-radio1:checked ~ .navigation-auto .auto-btn1 {
+  background-color: #555;
+}
+#project8-radio2:checked ~ .navigation-auto .auto-btn2 {
+  background-color: #555;
+}

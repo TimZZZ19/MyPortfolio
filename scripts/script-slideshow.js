@@ -194,5 +194,31 @@ Slide.activate(
   "Bootstrap, Vanilla JavaScript",
   "https://movie-list-with-boostrap-and-js.netlify.app/",
   "https://github.com/TimZZZ19/MovieList",
+  true
+);
+
+/* PROJECT8 COMMENT */
+let counter8, timer8, manualNav8;
+const previewImgArr8 = [
+  "./images/MyPortFolio/my_portfolio_1.png",
+  "./images/MyPortFolio/my_portfolio_2.png",
+];
+const project8Description = [
+  "Applied simplistic UI design to let content stand out;",
+  "Modularized project management section to allow adding project become easy and fast.",
+];
+
+Slide.activate(
+  counter8,
+  timer8,
+  manualNav8,
+  previewImgArr8,
+  "8",
+  "even",
+  "My Portfolio",
+  project8Description,
+  "HTML, CSS, Vanilla JavaScript",
+  "https://ziqiang-xu-portfolio.netlify.app/",
+  "https://github.com/TimZZZ19/MyPortfolio",
   false
 );
