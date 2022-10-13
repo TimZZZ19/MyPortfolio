@@ -45,8 +45,8 @@ const previewImgArr2 = [
 const project2Description = [
   "A fictional online food-ordering App;",
   "Used Context API for managing global states;",
-  "Used Firebase realtime database to store order data.",
-  "Practiced all the basics in React, including components, props, state, hooks, portals, css module;",
+  "Used Firebase realtime database to store order data;",
+  "Practiced all the basics in React, including components, props, state, hooks, portals, css module.",
 ];
 
 Slide.activate(
