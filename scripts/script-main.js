@@ -43,7 +43,7 @@ headerBrand.addEventListener("click", () => {
 });
 
 // *************************
-// SECTION INDICATOR
+// COMMENT SECTION INDICATOR
 // *************************
 let activeSectionTab;
 const sections = document.querySelectorAll(".section");
@@ -75,7 +75,7 @@ sections.forEach((section) => {
 });
 
 // *************************
-// SECTION REVEALING EFFECT
+// COMMENT SECTION REVEALING EFFECT
 // *************************
 
 const revealSection = function (entries, observer) {
@@ -98,65 +98,30 @@ sections.forEach(function (section) {
 });
 
 // *************************
-// SKILLSET CARD REVEALING
+// COMMENT COMPONENT REVEALING ON LOADING
 // *************************
 
-const skillCard = document.querySelector(".skills");
+revealComponentOnLoading("header", "header--hidden");
+revealComponentOnLoading("self-intro", "self-intro--hidden");
+revealComponentOnLoading("skills", "skills--hidden");
+revealComponentOnLoading("contact-logo", "contact-logo--hidden");
 
-const revealCard = function (entries, observer) {
-  entries.forEach((entry) => {
-    if (!entry.isIntersecting) return;
-    entry.target.classList.remove("skills--hidden");
-    observer.unobserve(entry.target);
+function revealComponentOnLoading(classString, hiddenClassString) {
+  const component = document.querySelector(`.${classString}`);
+
+  const revealComponent = (entries, observer) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.remove(hiddenClassString);
+      observer.unobserve(entry.target);
+    });
+  };
+
+  const componentObserver = new IntersectionObserver(revealComponent, {
+    root: null,
+    rootMargin: "0px 0px 0px 0px",
+    threshold: 0,
   });
-};
 
-const cardObserver = new IntersectionObserver(revealCard, {
-  root: null,
-  rootMargin: "0px 0px -50% 0px",
-  threshold: 0,
-});
-
-cardObserver.observe(skillCard);
-
-// *************************
-// HEADER REVEALING
-// *************************
-const header = document.querySelector(".header");
-
-const revealHeader = (entries, observer) => {
-  entries.forEach((entry) => {
-    if (!entry.isIntersecting) return;
-    entry.target.classList.remove("header--hidden");
-    observer.unobserve(entry.target);
-  });
-};
-
-const headerObserver = new IntersectionObserver(revealHeader, {
-  root: null,
-  rootMargin: "0px 0px -50% 0px",
-  threshold: 0,
-});
-
-headerObserver.observe(header);
-
-// *************************
-// SELF-INTRO REVEALING
-// *************************
-const selfIntro = document.querySelector(".self-intro");
-
-const revealSelfIntro = (entries, observer) => {
-  entries.forEach((entry) => {
-    if (!entry.isIntersecting) return;
-    entry.target.classList.remove("self-intro--hidden");
-    observer.unobserve(entry.target);
-  });
-};
-
-const selfIntroObserver = new IntersectionObserver(revealSelfIntro, {
-  root: null,
-  rootMargin: "0px 0px -50% 0px",
-  threshold: 0,
-});
-
-selfIntroObserver.observe(selfIntro);
+  componentObserver.observe(component);
+}

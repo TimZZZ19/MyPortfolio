@@ -101,12 +101,16 @@ u {
   padding: 5rem;
 }
 
+.card:hover {
+  box-shadow: 0.7rem 0.8rem 2rem #ccc;
+}
+
 .external-link {
   padding: 0.5rem 1.6rem;
   border-radius: 2.2rem;
   border: 0.1rem solid #ccc;
   color: #555;
-  transition: all 0.3s;
+  transition: all 0.1s;
 }
 .external-link:hover {
   color: black;
@@ -131,7 +135,7 @@ u {
 
   z-index: 1;
 
-  transition: all 2s;
+  transition: all 0.5s;
 }
 
 .header--hidden {
@@ -153,7 +157,7 @@ u {
   font-size: 2rem;
   color: #555;
 
-  transition: color 0.3s;
+  transition: color 0.1s;
 }
 
 .nav-link:hover {
@@ -193,6 +197,44 @@ u {
   text-align: justify;
 }
 
+.contact-logo {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem 0;
+
+  transition-duration: 0.5s;
+  transition-property: transform, opacity;
+}
+
+.contact-logo--hidden {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.email {
+  color: #4957f0;
+  transition: color 0.1s;
+}
+
+.email:hover {
+  color: #000;
+}
+
+.contact-info span {
+  width: 10rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 15rem;
+}
+
 .tech-stack h2 {
   margin-bottom: 1rem;
   line-height: 1;
@@ -205,27 +247,31 @@ u {
   align-items: center;
   gap: 0.5rem;
   color: #4957f0;
+  transition: color 0.1s;
+}
+
+.skill-assessment:hover {
+  color: #000;
 }
 
 .resume {
+  width: 5rem;
   color: #4957f0;
   font-style: italic;
   text-decoration: underline;
   text-underline-offset: 0.2rem;
 
-  transition: color 0.3s;
+  transition: color 0.1s;
 }
 .resume:hover {
   color: #000;
-}
-.resume:visited {
-  color: #4957f0;
 }
 
 .skills {
   margin-top: 4rem;
   width: 26%;
-  transition: all 2s;
+  transition-duration: 0.5s;
+  transition-property: transform, opacity;
 }
 
 .skills--hidden {
