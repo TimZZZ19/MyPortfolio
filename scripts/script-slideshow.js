@@ -204,7 +204,8 @@ const previewImgArr8 = [
   "./images/MyPortFolio/my_portfolio_2.png",
 ];
 const project8Description = [
-  "Applied simplistic UI design to let content stand out;",
+  "Adopted simplistic design to let content stand out;",
+  "Built carousel from scratch for project preview;",
   "Modularized project management section to allow adding project become easy and fast.",
 ];
 
