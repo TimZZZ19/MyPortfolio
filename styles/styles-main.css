@@ -125,17 +125,14 @@ u {
 .header {
   height: 10rem;
   align-items: center;
-  /* padding: 0 6rem; */
-  box-shadow: 0rem 0.3rem 0.8rem #ccc;
+  background-color: inherit;
+  z-index: 1;
+  transition-duration: 0.5s;
+  transition-property: opacity, transform;
 
+  box-shadow: 0rem 0.3rem 0.8rem #ccc;
   position: sticky;
   top: 0rem;
-
-  background-color: inherit;
-
-  z-index: 1;
-
-  transition: all 0.5s;
 }
 
 .header--hidden {
@@ -144,7 +141,19 @@ u {
 }
 
 .header-brand {
-  font-size: 5.2rem;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.header-brand:hover {
+  border-radius: 0.8rem;
+  box-shadow: 0rem 0.3rem 0.8rem 0.3rem #ccc;
+}
+
+.header-brand__logo {
+  width: 23rem;
   cursor: pointer;
 }
 
@@ -166,8 +175,9 @@ u {
 
 .active-tab {
   text-decoration: underline;
-  text-decoration-thickness: 0.1rem;
-  text-underline-offset: 0.2rem;
+  text-decoration-thickness: 0.3rem;
+  text-underline-offset: 0.5rem;
+  text-decoration-color: #4957f0;
 }
 
 .external-links {
