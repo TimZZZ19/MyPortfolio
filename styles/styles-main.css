@@ -130,9 +130,14 @@ u {
   transition-duration: 0.5s;
   transition-property: opacity, transform;
 
-  box-shadow: 0rem 0.3rem 0.8rem #ccc;
+  transition: box-shadow 0.2s;
+  box-shadow: 0rem 0.1rem #ccc;
   position: sticky;
   top: 0rem;
+}
+
+.header--activated {
+  box-shadow: 0rem 0.3rem 0.8rem #ccc;
 }
 
 .header--hidden {

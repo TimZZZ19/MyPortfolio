@@ -125,3 +125,16 @@ function revealComponentOnLoading(classString, hiddenClassString) {
 
   componentObserver.observe(component);
 }
+
+// *************************
+// COMMENT HEADER ACTIVATED ON SCROLL
+// *************************
+const header = document.querySelector(".header");
+window.onscroll = function () {
+  let distanceScrolled = document.documentElement.scrollTop;
+  if (distanceScrolled > 1) {
+    header.classList.add("header--activated");
+  } else {
+    header.classList.remove("header--activated");
+  }
+};
