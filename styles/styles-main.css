@@ -154,7 +154,7 @@ u {
 
 .header-brand:hover {
   border-radius: 0.8rem;
-  box-shadow: 0rem 0.3rem 0.8rem 0.3rem #ccc;
+  box-shadow: 0rem 0rem 0.8rem #ccc;
 }
 
 .header-brand__logo {
