@@ -70,7 +70,7 @@ const previewImgArr3 = [
   "./images/CodingGuru/CodingGuru (2).PNG",
 ];
 const project3Description = [
-  "Landing page for a fictional coding bootcamp;",
+  "A fully-responsive landing page for a fictional coding bootcamp;",
   "Micmicked Coding Dojo's landing page with Tailwind;",
   "Converted a design mock-up into a working responsive interface.",
 ];
