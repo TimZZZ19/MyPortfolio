@@ -16,7 +16,7 @@ const project1Description = [
   "Added touch-screen swipe gestures for the gallery lightbox;",
   "Used local storage to keep user data persistent across refreshes;",
   "Used Intersection Observer API to implement webpage effects including navbar section indicator, content lazy loading, section revealing on scroll;",
-  "Wrote a massive amount of event listeners, reusable utility functions and JavaScript class-based UI components to form a well-organized programming system that handles all food-ordering actions from user;",
+  "Wrote a massive amount of event listeners, reusable utility functions and JavaScript class-based UI components to form an architecture that backs up the food-ordering operation from user;",
   "Had independently written over 2000 lines of code in JavaScript and around 5000 in all three languages, practiced and mastered all the basics of CSS, HTML and JavaSript through this one project.",
 ];
 
